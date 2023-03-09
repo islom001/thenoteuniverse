@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu a{
+    color: #808080;
+}
+.menu1 a{
+    color: #808080;
+}
+
+li{
+    padding: 14px;
+}
+
+.logo {
+   width: 260px;
+   height: 240px;
+   margin-top: -20px;
+   opacity: 0.9;
+   margin-left: 80px;
+}
+.header-link:hover{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+    text-shadow: 2px 1px 1px;
+}
+.menu{
+    display: flex;
+    left: 500px;
+    position: relative;
+    top: -160px;
+    z-index: 9999;
+    font-size: 30px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 290px;
+    background-color: black;
+}
+.carousel-inner{
+    margin-top: -170px;
+}
+.access{
+    background-color: #cecece;
+    width: 100%;
+    height: 180px;
+    margin-top: 00px;
+}
+.bga:hover h5{
+    color: rgb(196, 42, 42);
+}
+.bg{
+    width: 400px;
+    height: 490px;
+    background-color: #cecece;
+}
+.bg:hover{
+    transform: scale(0.9);
+    box-shadow: 0 5px 20px 0 cornflowerblue;
+    transition: 1s;
+}
+.mice1{
+    background: url("./accessories/mouse1.png")no-repeat center/cover;
+    width: 300px;
+    height: 280px;
+    margin-left: 40px;
+   
+}
+.mice1:hover{
+    background: url("./accessories/mouse1.2.png")no-repeat center/cover;
+    transition: 1s;
+}
+.mice2{
+    background: url("./accessories/mouse2.png")no-repeat center/cover;
+    width: 300px;
+    height: 280px;
+    margin-left: 40px;
+    
+}
+.mice2:hover{
+    background: url("./accessories/mouse2.2.png")no-repeat center/cover;
+    transition: 1s;
+}
+.mice3{
+    background: url("./accessories/mouse3.png")no-repeat center/cover;
+    width: 300px;
+    height: 280px;
+    margin-left: 40px;
+
+}
+.mice3:hover{
+    background: url("./accessories/mouse3.2.png")no-repeat center/cover;
+    transition: 1s;
+}
+.mice4{
+    background: url("./accessories/mouse4.png")no-repeat center/cover;
+    width: 300px;
+    height: 280px;
+    margin-left: 40px;
+
+}
+.mice4:hover{
+    background: url("./accessories/mouse4.2.png")no-repeat center/cover;
+    transition: 1s;
+}
+.mice5{
+    background: url("./accessories/mouse5.png")no-repeat center/cover;
+    width: 300px;
+    height: 280px;
+    margin-left: 40px;
+
+}
+.mice5:hover{
+    background: url("./accessories/mouse5.2.png")no-repeat center/cover;
+    transition: 1s;
+}
+.mice6{
+    background: url("./accessories/mouse6.png")no-repeat center/cover;
+    width: 300px;
+    height: 280px;
+    margin-left: 40px;
+
+}
+.mice6:hover{
+    background: url("./accessories/mouse6.2.png")no-repeat center/cover;
+    transition: 1s;
+}
+.bt{
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 14px;
+    transition: .2s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.bt:hover{
+    background-color: #111;
+    color: white;
+    position: relative;
+    top: 3px;
+    transition: .4s ease all;
+}
+.bg h6{
+    width: 300px;
+}
+.mouse{
+    margin-top: 100px;
+}
+.keyboard{
+    margin-top: 100px;
+}
+.keyimg{
+    margin-left: 38px
+}
+.headsetes{
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.headsetesimg{
+    margin-left: 38px;
+    margin-top: 30px;
+}
+.footer-icon{
+    margin-top: -100px;
+}
+.toggler{
+    display: none;
+}
+.mdtext{
+    display: block;
+}
+.menu1{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    position: relative;
+    left: 500px;
+    top: -153px;
+}
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 160px;
+    margin-top: 200px;
+}
+.logofot{
+    position: relative;
+    top: -30px;
+    width: 170px;
+    opacity: 0.9;
+    margin-left: 100px;
+}
+.box{
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    margin-top:  -160px;
+}
+@media (min-width:250px) and (max-width:420px){
+    header{
+        height: 80px !important;
+    }
+    body{
+        width: 100%;
+        height: 7920px;
+    }
+    .logo{
+        width: 110px;
+        height: 110px;
+        position: relative;
+        left: -30px;
+        z-index: 9999;
+        top: 30px;
+    }
+    .pcv{
+        position: relative;
+        top: 10px;
+    }
+    .header{
+        width: 100%;
+        height: 170px;
+    }
+    .navbar-toggler{
+       display: none;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        left: 150px;
+        top: -65px;
+        list-style: none;
+    }
+    .menu a{
+       font-size: 12px;
+    }
+    li{
+        padding: 8px;
+    }
+    .caro{
+        width: 100% !important;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .access{
+        height: 1400px;
+    }
+    .bga img{
+        width: 300px !important;
+    }
+    .bga{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .mouse{
+        margin-left: -30px;
+    }
+    .bg{
+        width: 97% !important;
+        margin-top: 50px;
+        text-align: center;
+        height: 520px;
+        margin-left: -20px;
+    }
+    .g{
+        position: relative;
+        right: 30px;
+    }
+    .bt{
+        margin-left: 0;
+    }
+    .headsetesimg{
+        width: 90% !important;
+        height: 250px !important;
+        margin-left: 20px;
+    }
+    .keyimg{
+        width: 90% !important;
+        height: 250px !important;
+        margin-left: 37px;
+    }
+    .menu1{
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 100px;
+        top: -105px;
+        font-size: 13px;
+    }
+    .logofot{
+        width: 130px;
+        height: 130px;
+        position: relative;
+        top: -20px;
+        left: -10px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .box{
+        position: relative;
+        top: 65px;
+    }
+    .footer{
+        margin-top: 0;
+        margin-left: 0;
+        position: relative;
+        
+    }
+
+}

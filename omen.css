@@ -1,0 +1,357 @@
+.header{
+    width: 100%;
+    height: 200px;
+}
+li{
+    padding: 14px;
+}
+.menu{
+    display: flex;
+    left: 500px;
+    position: relative;
+    z-index: 9999;
+    top: -150px;
+    font-size: 30px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+.logo {
+   width: 260px;
+   height: 240px;
+   margin-top: -53px;
+   opacity: 0.9;
+   margin-left: 100px;
+}
+.menu a{
+    color: #808080;
+}
+.menu a:hover{
+    color: black;
+    text-decoration: none;
+    transition: 0.7s;
+    text-shadow: 2px 1px 1px;
+}
+.bg img{
+    width: 280px;
+    height: 210px;
+    transition: 2s;
+}
+.bg img:hover{
+    width: 300px;
+    height: 230px;
+    transition: 2s ease all;
+}
+
+.bg{
+    transition: 3s ease all;
+    width: 430px;
+    height: 650px;
+}
+.bg h4{
+    color: black;
+}
+.bg h3{
+    color: black;
+}
+.bg  h5{
+    color: black;
+}
+.laptops{
+    margin-top: 100px;
+}
+.colbut{
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow:  3px 3px 3px ;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.colbut1{
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow:  3px 3px 3px ;
+    margin-left: 100px;
+    margin-top: 63px;
+}
+.price{
+    color: black;
+    font-size: 27px;
+    margin-left: 130px;
+    transition: 2s;
+}
+.bg h5{
+    font-size: 23px;
+}
+.bg1{
+    background-color: #e2e2e2;
+}
+.bg{
+    background-color: #e2e2e2;
+}
+.bg1{
+    transition: 3s ease all;
+    width: 430px;
+    height: 650px;
+    margin-top: 200px;
+}
+.bg1 img{
+    width: 280px;
+    height: 210px;
+    transition: 2s;
+}
+.bg1 img:hover{
+    width: 300px;
+    height: 230px;
+    transition: 2s ease all;
+}
+.bg1 h4{
+    color: black;
+}
+.bg1 h3{
+    color: black;
+}
+.bg1  h5{
+    color: black;
+    font-size: 23px;
+}
+.pric:hover .price{
+    display: none;
+}
+.pricehover{
+    display: none;
+}
+.pric:hover .pricehover{
+    display: block;
+    color: cornflowerblue;
+    margin-left: 130px;
+}
+.icons img{
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+}
+.icons{
+    margin-left: 1100px;
+    margin-top: -250px;
+    position: relative;
+}
+.toggler{
+    display: none;
+}
+.colbut2{
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow:  3px 3px 3px ;
+    margin-left: 100px;
+    margin-top: 46px;
+}
+.colbut3{
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow:  3px 3px 3px ;
+    margin-left: 100px;
+    margin-top: 38px;
+}
+.laptop{
+    text-align: center;
+}
+.footer{
+    position: relative;
+    top: 200px;
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 270px;
+    margin-bottom: 0;
+}
+.menu1{
+    display: flex;
+    list-style: none;
+}
+.menu1 a{
+    color: black;
+}
+.box{
+    position: relative;
+    top: -150px;
+    height: 1px;
+    width: 100%;
+    color: black;
+}
+.menu1 {
+    display: flex;
+    margin-left: 390px;  
+    margin-top: -255px;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.menu1 a{
+    color: black 
+}
+.logofot{
+    position: relative;
+    top: -100px;
+    width: 230px;
+    opacity: 0.9;
+    margin-left: 100px;
+}
+@media (min-width:250px) and (max-width:420px){
+    .logo{
+        width: 110px;
+        height: 110px;
+        position: relative;
+        left: -40px;
+        top: 10px;
+    }
+    .header{
+        width: 100%;
+        height: 170px;
+    }
+    .navbar-toggler{
+       display: none;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        left: 50px;
+        top: -48px;
+        list-style: none;
+        margin-left: 0;
+        font-size: 22px;
+    }
+    .menu a{
+       font-size: 12px;
+    }
+    li{
+        padding: 8px;
+    }
+    .headerimg{
+        position: relative;
+        top: -40px;
+    }
+    .laptop{
+        text-align: center;
+        font-size: 30px;
+    }
+    .laptops{
+        position: relative;
+        left: 16px;
+    }
+    .bg h4{
+        font-size: 18px;
+    }
+    .bg{
+        width: 300px;
+        margin: 50px;
+        position: relative;
+        left: -70px;
+    }
+    .bg1 h4{
+        font-size: 18px;
+    }
+    .bg1{
+        width: 300px;
+        margin: 50px;
+        position: relative;
+        left: -70px;
+    }
+    .price{
+        font-size: 19px;
+        position: relative;
+        left: -20px;
+    }
+    .pricehover{
+        font-size: 19px;
+        position: relative;
+        left: -20px;
+    }
+    .bg h5{
+        font-size: 18px;
+        width: 280px;
+        position: relative;
+        left: 20px;
+    }
+    .colbut{
+        position: relative;
+        left: -33px;
+    }
+    .colbut1{
+        position: relative;
+        left: -33px;
+        top: -35px;
+    }
+    .bg1 h5{
+        font-size: 18px;
+        width: 280px;
+        position: relative;
+        left: 20px;
+    }
+    .colbut2{
+        position: relative;
+        left: -33px;
+        top: -25px;
+    }
+    .colbut3{
+        position: relative;
+        left: -33px;
+        top: -25px;
+    }
+    .bg img{
+        width: 220px;
+        height: 140px;
+    }
+    .bg1 img{
+        width: 220px;
+        height: 140px;
+    }
+    .headerimg{
+        width: 100%;
+        height: 150px;
+        position: relative;
+        top: -50px;
+    }
+    .logo{
+        position: relative;
+        top: 35px;
+        left: -110px;
+    }
+   
+    .footer{
+        width: 100%;
+        height: 400px;
+    }
+    .footer li{
+        padding: 9px;
+    }
+    .logofot{
+        width: 110px;
+        height: 110px;
+        position: relative;
+        left: -120px;
+        top: -70px;
+        margin-top: 0;
+    }
+    .menu1{
+        position: relative;
+        margin-left: 0;
+        font-family: 'Oswald', sans-serif;
+        font-size: 13px;
+        top: 105px;
+        left: 30px;
+    }
+    .menu1 a {
+        color: #808080 ;
+    }
+}

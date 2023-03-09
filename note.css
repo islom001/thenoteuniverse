@@ -1,0 +1,696 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    margin-left:500px;
+    display: flex;
+    margin-top: -110px;
+}
+.header{
+    width: 100%;
+    height:1600px;
+   background: url("./img/headerimg.jpg") no-repeat center/cover;
+}
+ .header a{
+    color: #808080 ;
+    font-size: 30px;
+}
+.footer a{
+    color: #808080 ;
+    font-size: 30px;
+}
+.toggler{
+    display: none;
+}
+li{
+    padding: 25px;
+}
+.logo {
+   width: 260px;
+   height: 240px;
+   top: 40px;
+   opacity: 0.9;
+   position: relative;
+    left: 110px;
+}
+a:hover{
+    color: white !important;
+    text-decoration: none;
+    transition: 0.7s;
+    text-shadow: 2px 1px 1px;
+}
+.note{
+    margin-top:-90px;
+    margin-left: 267px;
+    font-size: 90px;
+    color: #808080;
+    font-weight: 400;
+}
+.note:hover{
+    color: white;
+}
+.brand{
+    margin-top: -50px;
+}
+.bg{
+    background-color: black;
+    width: 400px;
+    height: 580px;
+    padding: 20px;
+    margin-top: 120px;
+    border: 1px solid white;
+    transition: 1s;
+}
+.bg:hover{
+    background-color: #111111;
+    transform: translateY(5px);
+    box-shadow: 0 6px 30px 0 cornflowerblue;
+    transition: .6s ease all;
+}
+
+.h5-1{
+    margin-left: 43px;
+    color: white;
+}
+.h5-2{
+    margin-left: 60px;
+    color: white;
+}
+.order1{
+    width: 220px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 72px;
+    margin-top: 0px;
+    background-color: #808080;
+}
+.order2{
+    width: 220px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 72px;
+    margin-top: 13px;
+    background-color: #808080;
+}
+.order{
+    width: 220px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 72px;
+    margin-top: 10px;
+    background-color: #808080;
+}
+.order:hover{
+    background-color: white;
+    top: 2px;
+    box-shadow: 1px 1px 1px 2px white;
+}
+.order1:hover{
+    background-color: white;
+    top: 2px;
+    box-shadow: 1px 1px 1px 2px white;
+}
+.order2:hover{
+    background-color: white;
+    top: 2px;
+    box-shadow: 1px 1px 1px 2px white;
+}
+.dell{
+    width: 350px;
+    height: 270px;
+    transition: 3s;
+    margin-left: 6px;
+    background: url("./img/dell\ new.png") no-repeat center/cover;
+}
+.dell:hover{
+    width: 320px;
+    height: 270px;
+    transition: 3s;
+    margin-left: 25px;
+    background: url("./img/dell-transformed.png") no-repeat center/cover;
+}
+.pc{
+    width: 280px;
+    height: 250px;
+    transition: 1s;
+    background: url("./img/pc-new-transformed.png") no-repeat center/cover;
+    position: relative;
+    top: -20px;
+    left: 35px;
+    margin-top: 15px;
+}
+.pc:hover{
+   
+    transition: 3s;
+    margin-left: 25px;
+    background: url("./img/pc-new2-transformed.png") no-repeat center/cover;
+     width: 280px;
+    height: 250px;
+}
+.hp{
+    width: 370px;
+    height: 300px;
+    transition: 3s;
+    background: url("./img/Hp-new-transformed.png") no-repeat center/cover;
+}
+.hp:hover{
+    width: 320px;
+    height: 250px;
+    background: url("./img/hp\ new2.webp") no-repeat center/cover;
+    transition: 2s ease all;
+    margin-top: 50px;
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+.hppc{
+    width: 320px;
+    height: 270px;
+    transition: 3s;
+    background: url("./img/hppc.png") no-repeat center/cover;
+    transition: 2s ease all;
+    margin-top: -5px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+.hppc:hover{
+    width: 350px;
+    height: 270px;
+    transition: 3s;
+    background: url("./img/hp-pc-new2-transformed.png") no-repeat center/cover;
+}
+.asus{
+    width: 350px;
+    height: 300px;
+    background: url("./img/Asus\ New.png") no-repeat center;
+    transition: 3s;
+}
+.asus:hover{
+    width: 320px;
+    height: 250px;
+    background: url("./img/asus\ new2.png") no-repeat center/cover;
+    transition: 2s ease all;
+    margin-top: 50px;
+    position: relative;
+    top: -30px;
+}
+.msi{
+    width: 350px;
+    height: 300px;
+    transition-property:background-image ;
+    transition: 3s;
+    background: url("./img/msi\ new.png") no-repeat center;
+}
+.msi:hover{
+    width: 320px;
+    height: 250px;
+    background: url("./img/msi\ new2.png") no-repeat center/cover;
+    transition: 2s ease all;
+    margin-top: 50px;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+.news{
+    background-color: black;
+    width: 100%;
+    height: 1600px;
+    margin-top: -10px;
+}
+.newh1{
+   color: white;
+   position: relative;
+   left: 650px;
+   top: 50px;
+   transition: 1s;
+   text-shadow: 2px 1px ;
+}
+.newh1:hover{
+    color: white;
+    text-decoration: none;
+   
+}
+.bg h3{
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.discount{
+    background-color: black;
+    width: 100%;
+    height: 2000px;
+}
+.caro{
+    margin-left: 340px;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+}
+.carousel-inner{
+    margin-top: 200px;
+}
+.imagescol{
+    width: 440px;
+    height: 420px;
+}
+.imagescol:hover{
+    box-shadow: 0 5px 20px 0 white;
+    transition: 2s ;
+}
+.images{
+    margin-top: -900px;
+    margin-left: 20px;
+}
+
+.mazgitext{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: -700px;
+    margin-left: 140px;
+    width: 1200px;
+}
+.rtx{
+    width: 300px;
+    height: 170px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.game{
+    background-color: black;
+    width: 100%;
+    height: 1500px;
+}
+.gameimg{
+    width: 600px;
+    height: 400px;
+    margin-left: 820px;
+    margin-top: 300px;
+}
+.gametext{
+    margin-top: -470px;
+    margin-left: 60px;
+}
+.gametext h1{
+    color: #b1fe26;
+    font-size: 50px;
+}
+.gametext h2{
+    color: #fff;
+    font-size: 35px;
+}
+.gametext p{
+    color: white;
+    width: 700px;
+    font-size: 24px;
+}
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0;
+}
+.logofot{
+    margin-top: -20px;
+    width: 200px;
+    opacity: 0.9;
+    margin-left: 80px;
+}
+.intel{
+    width: 240px;
+    height: 120px;
+    margin-left: 200px;
+    position: relative;
+    top: 50px;
+}
+.header-item{
+    list-style: none;
+}
+.box{
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    margin-top: -70px;
+}
+.toggler{
+    display: none;
+}
+.mdtext{
+    display: block;
+}
+.menu1 {
+    display: flex;
+    margin-left: 500px;
+    margin-top: -130px;
+    list-style: none;
+}
+.header-link{
+    font-size: 40px;
+    position: relative;
+    top: -17px;
+    font-family: 'Oswald', sans-serif;
+}
+@media (min-width:260px) and (max-width:430px){
+    
+    .header{
+        width: 105%;
+        height:800px;
+        background: url("./img/headerimg.jpg") no-repeat center/cover;
+    }
+    .logo{
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: -20px;
+        top: -10px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .navbar-toggler{
+       display: none;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        left: 80px;
+        top: -80px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .menu a{
+       font-size: 13px;
+    }
+    li{
+        padding: 10px;
+    }
+    .footer{
+        width: 102%;
+        position: relative;
+        margin-top: -600px;
+        left: -5px;
+        height: 130px;
+    }
+  
+    .menu1{
+        display: flex;
+        position: relative;
+        top: -50px;
+        left: 60px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .menu1 a{
+        font-size: 16px;
+    }
+    .box{
+        position: relative;
+        top: -60px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .header-link{
+        font-size: 13px;
+    }
+    .header-item{
+        list-style: none;
+    }
+    .mazgitext{
+        display: block;
+        position: relative;
+        left: -120px;
+        top:  350px;
+        width: 380px;
+        font-size: 18px;
+    }
+    .mdtext{
+        display: none;
+    }
+    .rtx{
+        position: relative;
+        width: 150px;
+        height: 70px;
+        top: 280px;
+        left: 30px;
+    }
+    .intel{
+        width: 100px;
+        height: 60px;
+        position: relative;
+        left: -130px;
+        top: 220px;
+    }
+    .dell{
+        width: 200px;
+        height: 160px;
+        transition: 3s;
+        margin-left: 6px;
+        background: url("./img/dell\ new.png") no-repeat center/cover;
+    }
+    .news{
+       width: 103%;
+       margin-top: -400px;
+       height: 4700px;
+    }
+    .pc{
+        width: 280px;
+        height: 250px;
+        transition: 1s;
+        background: url("./img/pc-new-transformed.png") no-repeat center/cover;
+        position: relative;
+        top: -20px;
+        left: 35px;
+        margin-top: 15px;
+    }
+   
+    .hp{
+        width: 370px;
+        height: 300px;
+        transition: 3s;
+        background: url("./img/Hp-new-transformed.png") no-repeat center/cover;
+    }
+   
+    .hppc{
+        width: 300px;
+        height: 220px;
+        transition: 3s;
+        background: url("./img/hppc.png") no-repeat center/cover;
+        transition: 2s ease all;
+        margin-top: -5px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+    .discount{
+        display: none;
+    }
+    .asus{
+        width: 250px;
+        height: 220px;
+        position: relative;
+        left: 24px;
+        top: -10px;
+        background: url("./img/Asus\ New.png") no-repeat center;
+        transition: 3s;
+    }
+    .asus:hover{
+        width: 250px;
+        height: 200px;
+        transition: 2s ease all;
+        position: relative;
+        top: -40px;    
+        
+    }
+   
+    .msi{
+        width: 250px;
+        height: 220px;
+        position: relative;
+        left: 34px;
+        top: -20px;
+    }
+    .msi:hover{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        transition: 2s ;
+    }
+    .bg{
+        width: 340px;
+        height: 500px;
+        position: relative;
+        left: -20px;
+    }
+    .order1{
+        width: 160px;
+        height: 40px;
+        position: relative;
+        top: -10px;
+    }
+    .order{
+        width: 160px;
+        height: 40px;
+        position: relative;
+        top: -10px;
+    }
+    .asus h3{
+        font-size: 20px;
+        position: relative;
+        left: 200px;
+    }
+    .msi h3{
+        font-size: 20px;
+        position: relative;
+        top: 60px;
+    }
+    .msi h5{
+        font-size:18px ;
+        position: relative;
+        top: 50px;
+        left: -40px;
+        text-align: center;
+    }
+    .msi h4{
+        position: relative;
+        top: 50px;
+        font-size: 14px;
+    }
+    .hp{
+        width: 250px;
+        height: 220px;
+        position: relative;
+        left: 24px;
+        top: -10px;
+    }
+    .hp:hover{
+        width: 250px;
+        height: 220px;
+        position: relative;
+        transition: 2s ease all;
+    }
+    .order2{
+        width: 160px;
+        height: 40px;
+        position: relative;
+        top: 10px;
+    }
+    .pc:hover{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        left: 24px;
+        top: -20px; 
+    }
+    .pc{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        left: 24px;
+        top: -20px; 
+    }
+    .pc h3{
+        font-size: 12px;
+        position: relative;
+        left: 20px;
+    }
+    .dell{
+        width: 250px;
+        height: 220px;
+        position: relative;
+        left: 24px;
+        top: -10px;
+    }
+    .dell:hover{
+        width: 250px;
+        height: 220px;
+        position: relative;
+        left: 24px;
+        top: -10px;
+    }
+    .images{
+        display: none;
+    }
+    .carousel-inner{
+        display: none;
+    }
+    .game{
+        position: relative;
+        top: -200px;
+        background-color: none;
+    }
+    .gametext{
+        position: relative;
+        top: 200px;
+        left: -30px;
+    }
+    .gametext h1{
+        color: #b1fe26;
+        font-size: 18px;
+    }
+    .gametext h2{
+        color: #fff;
+        font-size: 15px;
+    }
+    .gametext p{
+        color: white;
+        width: 700px;
+        font-size: 13px;
+        width: 380px;
+    }
+    .gameimg{
+        width: 380px;
+        height: 270px;
+        left: -805px;
+        top: 400px;
+        position: relative;
+    }
+    .bg h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .bg h5{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .bg h4{
+        font-size: 22px;
+    }
+    .order2{
+        margin-top: -5px;
+    }
+    .order1{
+        margin-top: 12px;
+    }
+    .tre{
+        display: none;
+    }
+    .newh1{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        left: 140px;
+        top: 80px;
+    }
+    ul{
+        margin-top: 0;
+    }
+    .news{
+        position: relative;
+        top: 700px;
+    }
+    .logofot{
+        position: relative;
+        left: -70px;
+        top: 7px;
+        width: 170px;
+        width: 100px;
+    }
+    
+}

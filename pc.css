@@ -1,0 +1,493 @@
+.menu a{
+    color: #808080;
+}
+.menu1 a{
+    color: #808080;
+}
+
+li{
+    padding: 14px;
+}
+
+.logo {
+   width: 260px;
+   height: 240px;
+   margin-top: -65px;
+   opacity: 0.9;
+   margin-left: px;
+}
+.header-link:hover{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+    text-shadow: 2px 1px 1px;
+}
+.menu{
+    display: flex;
+    left: 200px;
+    position: relative;
+    top: -20px;
+    font-size: 30px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+}
+.pcv{
+    width: 100%;
+    margin-top: -70px;
+    
+}
+.pc{
+    position: relative;
+    top: 1000px;
+}
+.bg{
+    width: 400px;
+    height: 580px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+.bg1{
+    width: 400px;
+    height: 580px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+.bg img{
+    width: 300px;
+    height: 280px;
+}
+.bg1 img{
+    width: 250px;
+    height: 280px;
+}
+.bg2{
+    width: 400px;
+    height: 580px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+.bg2 img{
+    width: 380px;
+    height: 280px;
+}
+.buy{
+    width: 200px;
+    height: 36px;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 40px;
+    border: none;
+    background-color: #808080;
+}
+.buy1{
+    width: 200px;
+    height: 36px;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+    border: none;
+    background-color: #808080;
+}
+.buy2{
+    width: 200px;
+    height: 36px;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 68px;
+    border: none;
+    background-color: #808080;
+}
+.msi2{
+    background: url("./Pc/msi2.png")no-repeat center/cover;
+    width: 280px;
+    height: 290px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    transition: 1s;
+}
+.msi2:hover{
+    background: url("./pc/msi2.2.png")no-repeat center/cover;
+     width: 280px;
+     height: 290px;
+     position: relative;
+     top: 17px;
+     left: 50px;
+     transition: 1s;
+ }
+ .msi3{
+    background: url("./Pc/msi3.png")no-repeat center/cover;
+    width: 280px;
+    height: 290px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    transition: 1s;
+}
+.msi3:hover:hover{
+    background: url("./pc/msi3.2.png")no-repeat center/cover;
+     width: 280px;
+     height: 290px;
+     position: relative;
+     top: 17px;
+     left: 50px;
+     transition: 1s;
+ }
+.msi1{
+    background: url("./Pc/msi1.png")no-repeat center/cover;
+    width: 280px;
+    height: 290px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    transition: 1s;
+}
+.bola{
+    background: url("./Pc/bola.jpg")no-repeat center/cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 1100px;
+}
+.msi1:hover{
+    background: url("./pc/msi1.2.png")no-repeat center/cover;
+     width: 280px;
+     height: 290px;
+     position: relative;
+     top: 17px;
+     left: 40px;
+     transition: 1s;
+ }
+.dell1{
+   background: url("./Pc/dell1.png")no-repeat center/cover;
+    width: 280px;
+    height: 290px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    transition: 1s;
+}
+.dell1:hover{
+    background: url("./Pc/dell1.2.png")no-repeat center/cover;
+     width: 280px;
+     height: 290px;
+     position: relative;
+     top: 17px;
+     left: 40px;
+     transition: 1s;
+ }
+ .dell2{
+    background: url("./Pc/dell2.png")no-repeat center/cover;
+     width: 250px;
+     height: 280px;
+     position: relative;
+     top: 15px;
+     left: 60px;
+     transition: 1s;
+ }
+ .dell2:hover{
+     background: url("./Pc/dell2.1.png")no-repeat center/cover;
+      width: 170px;
+      height: 280px;
+      position: relative;
+      top: 17px;
+      left: 100px;
+      transition: 1s;
+  }
+  .dell3{
+    background: url("./Pc/dell3.png")no-repeat center/cover;
+     width: 200px;
+     height: 280px;
+     position: relative;
+     top: 15px;
+     left: 80px;
+     transition: 1s;
+ }
+ .dell3:hover{
+     background: url("./Pc/dell3.2.png")no-repeat center/cover;
+      width: 170px;
+      height: 280px;
+      position: relative;
+      top: 17px;
+      left: 100px;
+      transition: 1s;
+  }
+  .hp1{
+    background: url("./Pc/hp1.png");
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    transition: 1s;
+  }
+  .hp1:hover{
+    background: url("./Pc/hp1.2.png");
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    transition: 1s;
+  }
+  .hp2{
+    background: url("./Pc/h2.png");
+    width: 350px;
+    height: 270px;
+    position: relative;
+    top: 30px;
+    left: -70px;
+    transition: 1s;
+  }
+  .hp2:hover{
+    background: url("./Pc/hp2.1.png");
+    width: 350px;
+    height: 270px;
+    position: relative;
+    top: 30px;
+    left: -70px;
+    transition: 1s;
+  }
+  .hp3{
+    background: url("./Pc/hpomen2.png");
+    width: 355px;
+    height: 250px;
+    position: relative;
+    top: 20px;
+    left: -80px;
+    transition: 1s;
+  }
+  .hp3:hover{
+    background: url("./Pc/hpomen1.png");
+    width: 375px;
+    height:250px;
+    position: relative;
+    top: 20px;
+    left: -70px;
+    transition: 1s;
+  }
+.text{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    float: left;
+    color: white;
+    left: 100px;
+    animation-name: text;
+    animation-duration: 4s;
+    animation-timing-function:  ease;
+}
+@keyframes text{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 100px;
+    }
+    100%{
+        animation-play-state: paused;
+    }
+}
+.h1{
+    position: relative;
+    top: -70px;
+    font-size: 45px;
+    color: #ed9107;
+    left: 120px;
+}
+.textinfo{
+    position: relative;
+    left: -190px;
+    top: -15px;
+}
+.menu1{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    position: relative;
+    left: 400px;
+    top: -153px;
+}
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 160px;
+   
+}
+.logofot{
+    position: relative;
+    top: -30px;
+    width: 170px;
+    opacity: 0.9;
+    margin-left: 100px;
+}
+.box{
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    margin-top:  -160px;
+}
+.footer-icon{
+    margin-top: -100px;
+}
+.mdtext{
+    display: block;
+}
+.footer{
+    position: relative;
+    top: 1300px;
+}
+@media (min-width:250px) and (max-width:420px){
+    body{
+        width: 100%;
+        height: 7920px;
+    }
+    .logo{
+        width: 110px;
+        height: 110px;
+        position: relative;
+        left: -30px;
+        top: 30px;
+    }
+    .pcv{
+        position: relative;
+        top: 10px;
+    }
+    .header{
+        width: 100%;
+        height: 170px;
+    }
+    .navbar-toggler{
+       display: none;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        left: 70px;
+        top: -65px;
+        list-style: none;
+    }
+    .menu a{
+       font-size: 12px;
+    }
+    li{
+        padding: 8px;
+    }
+    .pc{
+       position: relative;
+       top: 300px;
+       left: -80px;
+    }
+    .pc h1{
+        position: relative;
+        left: 80px;
+    }
+    .bg{
+        margin: 50px;
+        width: 350px;
+    }
+    .bg1{
+        margin: 50px;
+        width: 350px;
+    }
+    .bg2{
+        margin: 50px;
+        width: 350px;
+    }
+    .buy{
+        position: relative;
+        top: -30px;
+    }
+    .buy2{
+        position: relative;
+        top: -45px;
+        left: -30px;
+    }
+    .buy1{
+        position: relative;
+        top: -30px;
+        left: -30px;
+    }
+    .hp2{
+        height: 240px;
+        position: relative;
+        left: -100px;
+    }
+    .hp1{
+        height: 240px;
+        position: relative;
+        left: 15px;
+    }
+    .hp3{
+        height: 240px;
+        position: relative;
+        left: -105px;
+    }
+    .bg2 h6{
+        font-size: 16px;
+    }
+    .bola{
+        position: relative;
+        top: 370px;
+        margin-top: 0;
+        width: 100%;
+        height: 300px;
+    }
+    .h1{
+        font-size: 20px;
+        position: relative;
+        left: 60px;
+        top: -50px;
+    }
+    .bola h2{
+        font-size: 16px;
+    }
+    .textinfo{
+        font-size: 16px;
+        position: relative;
+        left: -90px;
+    }
+    .text{
+        position: relative;
+        top: 80px;
+        left: 50px;
+    }
+    .mdtextinfo{
+        display: none;
+    }
+    .menu1{
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 60px;
+        top: -105px;
+        font-size: 13px;
+    }
+    .logofot{
+        width: 130px;
+        height: 130px;
+        position: relative;
+        top: -20px;
+        left: -10px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .box{
+        position: relative;
+        top: 65px;
+    }
+    .footer{
+        margin-top: 0;
+        margin-left: 0;
+        position: relative;
+        top: 700px;
+    }
+}

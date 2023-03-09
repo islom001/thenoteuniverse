@@ -1,0 +1,637 @@
+.menu a {
+    color: #808080;
+}
+
+li {
+    padding: 14px;
+}
+.menu{
+    display: flex;
+    left: 550px;
+    position: relative;
+    top: -150px;
+    font-size: 30px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+.logo {
+    width: 260px;
+    height: 240px;
+    margin-top: -25px;
+    opacity: 0.9;
+    margin-left: 60px;
+ }
+ .header-link:hover{
+     color: white;
+     text-decoration: none;
+     transition: 0.7s;
+     text-shadow: 2px 1px 1px;
+ }
+ .coltext1{
+    margin-left: 570px;
+    margin-top: -350px;
+ }
+ .coltext1 h3{
+    margin-left: -130px;
+ }
+ .star1{
+    margin-left: -130px;
+ }
+
+ .coltext2{
+    margin-left: 570px;
+    margin-top: -240px;
+ }
+ .coltext2 h3{
+    margin-left: -130px;
+ }
+ .star2{
+    margin-left: -130px;
+ }
+ .coltext3{
+    margin-left: 570px;
+    margin-top: -240px;
+ }
+ .star3{
+    margin-left: -130px;
+ }
+ .coltext3{
+    margin-top: -240px;
+ }
+ .coltext3 h5{
+    position: relative;
+    left: -22px;
+ }
+ .coltext3 h3{
+    margin-left: -130px;
+ }
+ .star3{
+    margin-left: -130px;
+ }
+ .coltext4{
+    margin-left: 570px;
+    margin-top: -240px;
+ }
+ .coltext4 h3{
+    margin-left: -130px;
+ }
+ .star4{
+    margin-left: -130px;
+ }
+ .coltext4 h5{
+    position: relative;
+    left: -22px;
+ }
+ .coltext5{
+    margin-left: 570px;
+    margin-top: -240px;
+ }
+ .coltext5 h3{
+    margin-left: -130px;
+ }
+ .star5{
+    margin-left: -130px;
+ }
+ .coltext5 h5{
+    position: relative;
+    left: -22px;
+ }
+ .mdclass2{
+    margin-left:-135px ;
+    margin-top: -270px;
+ }
+ .mdclass{
+    margin-left:-135px ;
+    margin-top: -250px;
+ }
+ .mdclass1{
+    margin-left:-135px ;
+    margin-top: -271px;
+ }
+ .undtext{
+    margin-left: 1100px;
+    margin-top: -230px;
+ }
+ .dell{
+    width: 380px;
+    height:380px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+ }
+ .dell2{
+    width: 370px;
+    height:270px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+ }
+ .undtext1{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+ }
+ .undtext2{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+ }
+ .undtext3{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+ }
+ .undtext4{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+ }
+ .undtext5{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+ }
+.bg {
+    width: 1300px;
+    height: 400px;
+    border: 1px solid #1111;
+    box-shadow: 0 5px 15px 0 #e2e2e2;
+    transition: 2s;
+}
+.bg img:hover {
+    transform: scale(1.1);
+}
+.otsenka {
+    display: inline-flex;
+    position: relative;
+    top: 3px;
+    left: 7px;
+}
+.color {
+    background-color: #444444;
+    border-radius: 100%;
+    width: 40px;
+    height: 35px;
+    margin-left: 220px;
+    margin-top: -50px;
+}
+.laptops {
+    position: relative;
+    left: 80px;
+}
+
+.alien{
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+.alien img {
+    width: 600px;
+    height: 600px;
+    margin-left: -600px;
+}
+.alien h1 {
+    font-size: 53px;
+    color: #165dba;
+    font-weight: 400;
+}
+.alien h5 {
+    font-size: 18px;
+}
+
+.alientext {
+    top: -360px;
+    position: relative;
+    left: 360px;
+}
+.footer {
+    background-color: #111111;
+    width: 100%;
+    height: 160px;
+}
+.logofot {
+    margin-top: 20px;
+    width: 170px;
+    opacity: 0.9;
+    margin-left: -400px;
+}
+.laptops{
+    position: relative;
+    top: -130px;
+}
+.box {
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    margin-top: 40px;
+}
+.footer-icon {
+    margin-top: -100px;
+}
+.toggler {
+    display: none;
+}
+.mdtext {
+    display: block;
+}
+.footer {
+    position: relative;
+    top: 300px;
+}
+.icons {
+    margin-top: -152px;
+    margin-left: 1100px;
+}
+.icons img {
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+}
+.vdtext {
+    margin-top: 300px;
+}
+.vd {
+    width: 730px;
+    height: 600px;
+}
+.bdg {
+    width: 100%;
+    height: 620px;
+}
+.bdg h5 {
+    float: right;
+    width: 700px;
+    font-size: 18px;
+    margin-top: 340px;
+}
+
+.big {
+    font-size: 27px;
+}
+
+.bdg img {
+    width: 740px;
+    height: 500px;
+}
+
+.box {
+    margin-top: -80px;
+}
+.menu1{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    position: relative;
+    left: 400px;
+    top: -153px;
+}
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 190px;
+   
+}
+.logofot{
+    position: relative;
+    top: -30px;
+    width: 170px;
+    opacity: 0.9;
+    margin-left: 100px;
+}
+.box{
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    margin-top:  -160px;
+}
+.menu1 a{
+    color: #808080;
+}
+@media (min-width:250px) and (max-width:420px){
+    body{
+        width: 100%;
+        height: 5320px;
+    }
+    .logo{
+        width: 110px;
+        height: 110px;
+        position: relative;
+        left: -64px;
+        top: 27px;
+    }
+    .alien img{
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 300px;
+    }
+    .alien{
+        position: relative;
+        top: -60px;
+    }
+    .alien h5{
+        font-size: 19px;
+        position: relative;
+        top: 310px;
+        left: -360px;
+    }
+    .alien h6{
+        font-size: 18px;
+        position: relative;
+        top: 290px;
+        left: -360px;
+    }
+    .control2{
+        position: relative;
+        left: 110px;
+    }
+    .alien h1{
+        font-size: 25px;
+        position: relative;
+        top: 330px;
+        left: -360px;
+    }
+    .control1{
+        position: relative;
+        left: 70px;
+    }
+    .bg{
+        width: 350px;
+        height: 750px;
+    }
+    .dell{
+        width: 280px;
+        height: 280px;
+        position: relative;
+        left: 28px;
+        top: -15px;
+    }
+    .dell2{
+        width: 280px;
+        height: 200px;
+        position: relative;
+        left: 44px;
+        top: 35px;
+    }
+    .laptops{
+        position: relative;
+        left:  30px;
+    }
+    .coltext1{
+        position: relative;
+        left:-380px;
+        top: 360px;
+    }
+    .coltext1 h3{
+        position: relative;
+        top: -70px;
+        width: 300px;
+        left: -140px;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 21px;
+    }
+    .coltext1 h5{
+        width: 320px;
+        position: relative;
+        left: -140px;
+        top: -90px;
+        font-size: 16px;
+    }
+    .star1{
+        position: relative;
+        top: -75px;
+        left: -10px;
+        margin-top: 0;
+        width: 350px;
+    }
+    .coltext2{
+        position: relative;
+        left:-380px;
+        top: 360px;
+    }
+    .coltext2 h3{
+        position: relative;
+        top: -70px;
+        width: 300px;
+        left: -140px;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 21px;
+    }
+    .coltext2 h5{
+        width: 320px;
+        position: relative;
+        left: -140px;
+        top: -90px;
+        font-size: 16px;
+    }
+    .star2{
+        position: relative;
+        top: -75px;
+        left: -10px;
+        margin-top: 0;
+        width: 350px;
+    }
+    .coltext3{
+        position: relative;
+        left:-390px;
+        top: 360px;
+    }
+    .coltext3 h3{
+        position: relative;
+        top: -70px;
+        width: 300px;
+        left: -140px;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 21px;
+    }
+    .coltext3 h5{
+        width: 320px;
+        position: relative;
+        left: -160px;
+        top: -90px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .star3{
+        position: relative;
+        top: -75px;
+        left: -10px;
+        margin-top: 0;
+        width: 350px;
+    }
+    .coltext4{
+        position: relative;
+        left:-390px;
+        top: 360px;
+    }
+    .coltext4 h3{
+        position: relative;
+        top: -70px;
+        width: 300px;
+        left: -140px;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 21px;
+    }
+    .coltext4 h5{
+        width: 320px;
+        position: relative;
+        left: -160px;
+        top: -90px;
+        font-size: 15px;
+    }
+    .star4{
+        position: relative;
+        top: -75px;
+        left: -10px;
+        margin-top: 0;
+        width: 350px;
+    }
+    .coltext5{
+        position: relative;
+        left:-385px;
+        top: 360px;
+    }
+    .coltext5 h3{
+        position: relative;
+        top: -70px;
+        width: 300px;
+        left: -140px;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 21px;
+    }
+    .coltext5 h5{
+        width: 320px;
+        position: relative;
+        left: -160px;
+        top: -90px;
+        font-size: 16px;
+    }
+    .star5{
+        position: relative;
+        top: -75px;
+        left: -10px;
+        margin-top: 0;
+        width: 350px;
+    }
+    .undtext1{
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 55px;
+        top: 270px;
+    }
+    .undtext2{
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 55px;
+        top: 240px;
+    }
+    .undtext3{
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 50px;
+        top: 270px;
+    }
+    .undtext4{
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 50px;
+        top: 270px;
+    }
+    .undtext5{
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 50px;
+        top: 270px;
+    }
+    .undtext1 h4{
+        font-size: 17px;
+    }
+    .undtext1 h5{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .undtext2 h4{
+        font-size: 17px;
+    }
+    .undtext2 h5{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .undtext3 h4{
+        font-size: 17px;
+    }
+    .undtext3 h5{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .undtext4 h4{
+        font-size: 17px;
+    }
+    .undtext4 h5{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .undtext5 h4{
+        font-size: 17px;
+    }
+    .undtext5 h5{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .mdclass{
+        display: none;
+    }
+    .mdclass1{
+        display: none;
+    }
+    .mdclass2{
+        display: none;
+    }
+    .footer{
+        position: relative;
+        top: 00px;
+    }
+    .logofot{
+        margin-left: 0;
+        position: relative;
+        left: -15px;
+        width: 120px;
+        height: 120px;
+    }
+    .menu1{
+        position: relative;
+        margin-left: 0;
+        left: 38px;
+        top: -135px;
+    }
+    .menu1 a{
+        font-size:13px;
+    }
+    li{
+        padding: 10px;
+    }
+    .box{
+        position: relative;
+        top: 30px;
+    }
+    .menu{
+        position: relative;
+        left: 50px;
+        top: -70px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .menu a{
+        font-size: 13px;
+    }
+}

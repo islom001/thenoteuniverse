@@ -1,0 +1,444 @@
+.menu a{
+    color: #808080 ;
+}
+li{
+    padding: 16px;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.menu{
+    display: flex;
+    left: 500px;
+    position: relative;
+    z-index: 9999;
+    top: -150px;
+    font-size: 30px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+.logo {
+   width: 260px;
+   height: 240px;
+   margin-top: -53px;
+   opacity: 0.9;
+   margin-left: 100px;
+}
+.header-link:hover{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+    text-shadow: 2px 1px 1px;
+}
+.note{
+    margin-top:-90px;
+    margin-left: 267px;
+    font-size: 90px;
+    color: #808080;
+    font-weight: 400;
+}
+.note:hover{
+    color: white;
+}
+.brand{
+    margin-top: -50px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+  }
+  .carousel-inner{
+    margin-top: -100px;
+  }
+  .header{
+    width: 100%;
+    height:230px;
+    background-color: black;
+}
+.carousel-caption{
+    position: relative;
+    top: 250px;
+    padding: 10px;
+}
+.carousel-control-prev{
+    margin-left: -80px;
+}
+.carousel-control-next-icon{
+    margin-left: 160px;
+}
+.carobut{
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    margin-left: -160px;
+    color: #111111;
+    font-weight: 700;
+    border-radius: 4px;
+    padding-left: -20px;
+   
+}
+.carobut:hover img{
+    width: 20px;
+    height: 17px;
+    margin-top: -5px;
+  
+}
+.carobut img{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.carobut:hover img{
+ display: inline-flex;
+ width: 20px;
+ height: 17px;
+ margin-top: -5px;
+}
+.carobut:hover{
+    width: 100px;
+    height: 40px;
+    
+}
+.bg{
+    background-color: #f4f4f4;
+    width: 500px;
+    height: 430px;
+    margin-left: 150px;
+}
+.laptopsimg{
+    margin-top: 200px;
+}
+
+.bg h2{
+    font-weight: 300;
+}
+.bg h6{
+    font-weight: 400;
+}
+.bg p {
+    font-weight: 700;
+    margin-top: 15px;
+}
+.bg p a{
+   text-decoration: none;
+   color: black;
+}
+.textcol{
+    margin-left: 50px;
+    position: relative;
+    top: 37px;
+}
+.textcol1{
+    margin-left: 50px;
+    position: relative;
+    top: 37px;
+}
+.bg p:hover{
+    border-bottom: 3px solid black;
+    width: 40px;
+    margin-top: 15px;
+}
+.bg:hover{
+    background-color: #e2e2e2;
+}
+.men{
+    width: 390px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.omenimg{
+    width: 390px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.underlaptop{
+    margin-top: 300px;
+}
+.underlaptop img{
+  width: 100%;
+  height: 700px;
+}
+.tre{
+    display: none;
+}
+.zapbut{
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #e2e2e2;
+    background-color: #2c3038;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.zapbut:hover img{
+    width: 20px;
+    height: 17px;
+    margin-top: -5px;
+    
+}
+.textzap{
+    background-color: white;
+    margin-top: -300px;
+    width: 500px;
+    height: 100px;
+    margin-left: 70px;
+}
+.zapbut img{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.zapbut:hover img{
+ display: inline-flex;
+ width: 20px;
+ height: 17px;
+ margin-top: -5px;
+ border: none;
+}
+.zapbut:hover{
+    width: 100px;
+    height: 40px;
+}
+.bg1{
+    background: url("./hp/amd.webp")no-repeat center/cover;
+    width: 600px;
+    height: 450px;
+    margin-left: 50px;
+}
+.bg2{
+    background: url("./hp/intel.webp")no-repeat center/cover;
+    width: 600px;
+    height: 450px;
+    margin-left: 60px;
+}
+.img2{
+    margin-top: 300px;
+}
+.textbg{
+   position: relative;
+   top: 500px;
+}
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 210px;
+    margin-top: 300px;
+    margin-bottom: 0 !important;
+}
+.logofot{
+    position: relative;
+    top: -30px;
+    width: 210px;
+    opacity: 0.9;
+    margin-left: 100px;
+}
+.box{
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    margin-top: -55px;
+}
+
+.toggler{
+    display: none;
+}
+.mdtext{
+    display: block;
+}
+.box{
+    position: relative;
+    top: 50px;
+}
+.menu1 {
+    display: flex;
+    margin-left: 390px;  
+    margin-top: -185px;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.footer li{
+    padding: 30px;
+}
+@media (min-width:250px) and (max-width:420px){
+    body{
+        width: 100%;
+        height: 3400px;
+    }
+    .logo{
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: -100px;
+        top: 20px;
+    }
+    .header{
+        width: 100%;
+        height: 170px;
+    }
+    .navbar-toggler{
+       display: none;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        left: 80px;
+        top: -85px;
+        list-style: none;
+    }
+    .menu a{
+       font-size: 13px;
+    }
+    li{
+        padding: 10px;
+    }
+    .carousel-inner img{
+        height: 250px;
+    }
+    .bg{
+        width: 350px;
+        height: 280px;
+        position: relative;
+        left: -200px;
+        margin: 50px 185px 50px;
+    }
+   
+    .laptopsimg{
+        position: relative;
+        top: -180px;
+    }
+    .bg h2{
+        font-weight: 300;
+        font-size:25px;
+    }
+    .bg h6{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .bg p {
+        font-weight: 700;
+        margin-top: 15px;
+    }
+    .bg p a{
+       text-decoration: none;
+       color: black;
+    }
+    .textcol1{
+        left: 5px;
+        position: relative;
+        top: 10px;
+    }
+    .textcol{
+        left: 5px;
+        position: relative;
+        top: 10px;
+    }
+    .men{
+        position: relative;
+        top: -60px;
+        width: 230px;
+        height: 200px;
+        left: 10px;
+    }
+    .omenimg{
+        position: relative;
+        top: -42px;
+        width: 240px;
+        height: 163px;
+    }
+    .underlaptop img{
+        width: 100%;
+        height: 300px;  
+        position: relative;
+        top: -300px;  
+    }
+    .textzap{
+        position: relative;
+        top: 20px;
+        left: -40px;
+    }
+    .img2{
+        position: relative;
+        top: 200px;
+    }
+    .textxap h1{
+        font-size: 23px;
+    }
+    .zapbut:hover img{
+        display: inline-flex;
+        width: 20px;
+        position: relative;
+        height: 17px;
+        top: 1px;
+        border: none;
+       }
+    .textzap h6{
+        display: none;
+    }
+    .tre{
+        display: block;
+        font-size: 15px;
+    }
+    .bg1{
+        background: url("./hp/amd.webp")no-repeat center/cover;
+        width: 370px;
+        height: 300px;
+        position: relative;
+        left: -75px;
+        margin: 100px;
+    }
+    .bg2{
+        background: url("./hp/intel.webp")no-repeat center/cover;
+        width: 370px;
+        height: 300px;
+        margin: 100px;
+        position: relative;
+        left: -75px;
+    }
+    .img2{
+        position: relative;
+        top: -100px;
+    }
+    .footer{
+       margin-top: -10px;
+       height: 160px;
+    }
+    .textbg h2{
+        font-size:20px ;
+        position: relative;
+        top: -180px;
+        left: 20px;
+    }
+    .textbg h5{
+        font-size: 18px;
+        position: relative;
+        top: -180px;
+        left: 20px;
+    }
+    .box{
+        position: relative;
+        top: 140px;
+    }
+    .menu1{
+        display: flex;
+        position: relative;
+        left: 60px;
+        top: 77px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .footer li{
+        padding: 9px;
+    }
+    .logofot{
+        height: 140px;
+        width: 140px;
+        position: relative;
+        left: -120px;
+        top: -15px;
+    }
+}

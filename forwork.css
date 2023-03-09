@@ -1,0 +1,396 @@
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header-link {
+    color: #808080;
+}
+li{
+    padding: 30px;
+}
+.menu{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -180px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+}
+.logo {
+   width: 260px;
+   height: 240px;
+   margin-top: -20px;
+   opacity: 0.9;
+   margin-left: 50px;
+}
+.header-link:hover{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+    text-shadow: 2px 1px 1px;
+}
+.header{
+    background: url("./hp/bgwork.webp")no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+}
+.toggler{
+    display: none;
+}
+.laptops{
+    top: 100px;
+}
+.bg{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    margin-top: 100px;
+    border: 1px solid #111111;
+    transition: 2s;
+}
+.bg:hover{
+    background-color: #f4f4f4;
+    transition: 2s;
+}
+.carousel-inner{
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    position: relative;
+    top: 15px;
+}
+.left{
+    margin-top: 150px;
+}
+.right{
+    margin-top: 150px;
+}
+.left1{
+    margin-top: 150px;
+}
+.right1{
+    margin-top: 150px;
+}
+.caro{
+    margin-left: 30px;
+}
+.caro1{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.bg h4{
+    width: 500px;
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}
+.bg h6{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.star{
+    margin-left: 240px;
+    margin-top: 40px;
+}
+.bg p{
+    display: inline-flex;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+.colbt1{
+    width: 347px;
+    height: 50px;
+    font-weight: 600;
+    background-color: white;
+    color: #165dba;
+    position: relative;
+    top: 57px;
+    border: none;
+}
+.colbt2{
+    width: 348px;
+    height: 50px;
+    font-weight: 600;
+    color: white;
+    background-color: #165dba;
+    border: none;
+    position: relative;
+    left: 350px;
+    top: 8px;
+   
+}
+.colbt2:hover{
+    background-color: #114284;
+    width: 348px;
+    height: 50px;
+}
+.colbt2 img{
+    margin-top: -2px;
+    margin-left: -20px;
+    display: none;
+    width: 25px;
+    height: 15px;
+}
+.colbt2:hover img{
+    display: inline-flex;
+    margin-left: 20px;
+    width: 20px;
+    height: 15px;
+    transition: 2s;
+}
+.colbt1:hover{
+    background-color: #f4f4f4;
+    width: 348px;
+    height: 50px;
+}
+.colbt1 img{
+    margin-top: -2px;
+    margin-left: -20px;
+    display: none;
+    width: 25px;
+    height: 15px;
+}
+.colbt1:hover img{
+    display: inline-flex;
+    margin-left: 20px;
+    width: 25px;
+    height: 15px;
+    transition: 2s;
+}
+.colbt3{
+    width: 347px;
+    height: 50px;
+    font-weight: 600;
+    background-color: white;
+    color: #165dba;
+    position: relative;
+    top: 35px;
+    border: none;
+}
+.colbt3:hover{
+    background-color: #f4f4f4;
+    width: 348px;
+    height: 50px;
+}
+.colbt3 img{
+    margin-top: -2px;
+    margin-left: -20px;
+    display: none;
+    width: 25px;
+    height: 15px;
+}
+.colbt3:hover img{
+    display: inline-flex;
+    margin-left: 20px;
+    width: 25px;
+    height: 15px;
+    transition: 2s;
+}
+.colbt4{
+    width: 348px;
+    height: 50px;
+    font-weight: 600;
+    color: white;
+    background-color: #165dba;
+    border: none;
+    position: relative;
+    left: 350px;
+    top: -8px;
+   
+}
+.colbt4:hover{
+    background-color: #114284;
+    width: 348px;
+    height: 50px;
+}
+.colbt4 img{
+    margin-top: -2px;
+    margin-left: -20px;
+    display: none;
+    width: 25px;
+    height: 15px;
+}
+.colbt4:hover img{
+    display: inline-flex;
+    margin-left: 20px;
+    width: 20px;
+    height: 15px;
+    transition: 2s;
+}
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 160px;
+    position: relative;
+    top: 400px;
+}
+.logofot{
+    position: relative;
+    top: -120px;
+    width: 170px;
+    opacity: 0.9;
+    margin-left: 50px;
+}
+.box{
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    margin-top: -20px;
+}
+.footer-icon{
+    margin-top: -100px;
+}
+.toggler{
+    display: none;
+}
+.mdtext{
+    display: block;
+}
+
+.menu1{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: -255px;
+}
+.header h1{
+    position: relative;
+    top: 400px;
+    padding: 10px;
+}
+.mdtext{
+    display: inline-flex;
+}
+@media (min-width:250px) and (max-width:420px){
+    body{
+        width: 100%;
+        height: 7600px;
+    }
+    .logo{
+        width: 110px;
+        height: 110px;
+        position: relative;
+        left: -40px;
+        top: 10px;
+    }
+    .header{
+        width: 100%;
+        height: 120px;
+        background: none;
+        background-color: black;
+    }
+    .navbar-toggler{
+       display: none;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        left: 100px;
+        top: -78px;
+        list-style: none;
+        margin-left: 0;
+        font-size: 22px;
+        margin-top: 0;
+    }
+    .menu a{
+       font-size: 12px;
+    }
+    li{
+        padding: 8px;
+    }
+    .header h1{
+        position: relative;
+        top: -20px;
+        left: 10px;
+        font-size: 25px;
+    }
+    .laptops{
+        position: relative;
+        top: 70px;
+        left: -25px;
+    }
+    .bg{
+        width: 350px;
+        height: 760px;
+        margin: 50px;
+        position: relative;
+        left: -20px;
+    }
+    .carousel-inner{
+        width: 300px;
+        position: relative;
+        left: -30px;
+    }
+    .caro{
+        width: 300px;
+        height: 270px;
+        position: relative;
+        left: 30px;
+    }
+    .caro1{
+        width: 270px;
+        height: 200px;
+    }
+    .bg h4{
+        font-size: 19px;
+        width: 300px;
+        position: relative;
+        left: -45px;
+    }
+    .bg h6{
+        width: 280px;
+        position: relative;
+        left: -45px;
+    }
+    .mdtext{
+        display: none;
+    }
+    .star{
+        position: relative;
+        left: -180px;
+        width: 300px;
+    }
+    .colbt1{
+        display: none;
+    }
+    .colbt2{
+        position: relative;
+        top: 104.5px;
+        left: -1px;
+        width: 350px;
+    }
+    .footer{
+        position: relative;
+        top:230px;
+        width: 100%;
+        height: 130px;
+    }
+    .logofot{
+        width: 110px;
+        height: 110px;
+        position: relative;
+        left: -60px;
+    }
+    .menu1{
+        display: flex;
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+        left: 40px;
+        top: -197px;
+        font-size: 15px;
+        z-index: 9999;
+    }
+    .box{
+        position: relative;
+        top: -190px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
